@@ -1,49 +1,54 @@
-
+    <hr>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 col-md-4 col-lg-4">
-          <div class="footer-img">
+          <div class="convenient-links">
             <p>The Myland Schools</p>
+          </div>
+          <div class="convenient-links">
             <img src="../Images/Milandlogo.jpg" alt="logo" height="180px" width="180px">
           </div>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4">
-          <div>
+          <div class="convenient-links">
             <p>Convenient Links</p>
           </div>
-          <div>
+          <div class="convenience">
             <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Admission</li>
-              <li></li>
-              <li>Contacts</li>
+              <a href="Home.php"><li class="footer-lnk">Home</li></a>
+              <a href="About.php"><li class="footer-lnk">About Us</li></a>
+              <a href="Activities.php"><li class="footer-lnk">Activities</li></a>
+              <a href="Admission.php"><li class="footer-lnk">Admission</li></a>
+              <a href="Contacts.php"><li class="footer-lnk">Contacts</li></a>
             </ul>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4">
-          <div>
-            <p>Contacts Info</p>
+          <div class="convenient-links">
+            <p>Contacts Info.</p>
           </div>
-          <div>
-            <p>P.O BOX -----</p>
-            <p>Utawala</p>
-            Nairobi Kenya
+          <div class="convenient-links">
+            <ul>
+              <li class="footer-lnk">P.O BOX -----,</li>
+              <li class="footer-lnk">Utawala,</li>
+              <li class="footer-lnk">Nairobi Kenya.</li>
+            </ul>
           </div>
-          <div>
-            <p>
-              +25470-----,+254712------
-            </p>
-            <p>
-              info@themailandshools.ac.ke
-            </p>
+          <div class="convenient-links">
+            <ul>
+              <li class="footer-lnk">+254 729 220 917</li>
+              <li class="footer-lnk">info@themylandshools.ac.ke</li>
+            </ul>
           </div>
         </div>
       </div>
+
+      <hr>
+
       <div>
         <div class="footer-close">
           <p>
-            Copyright &copy; 2023 The Miland Schools. All Rights Reserved.
+            Copyright &copy; 2023 The Myland Schools. All Rights Reserved.
           </p>
         </div>
       </div>

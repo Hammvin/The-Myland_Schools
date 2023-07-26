@@ -29,7 +29,7 @@ include 'Header.php';
         <div class="col-sm-12 col-md-1 col-lg-1"></div>
         <div class="col-sm-12 col-md-10 col-lg-10">
             <div class="header">
-                <p>WELCOME TO THE MYLAND SCHOOLS</p>
+                <p class="header-txt">WELCOME TO THE MYLAND SCHOOLS</p>
             </div>
             <div class="intro">
                 <p>
@@ -49,19 +49,20 @@ include 'Header.php';
         </div>
         <div class="col-sm-12 col-md-1 col-lg-1"></div>
     </div>
+    <hr>
 
-
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid ">
         <div class="row">
-            <div class="col-sm-12 col-md-2 col-lg-2 bg-dark"></div>
-            <div class="col-sm-12 col-md-8 col-lg-8 bg-dark">
+            <div class="col-sm-12 col-md-2 col-lg-2 "></div>
+            <div class="col-sm-12 col-md-8 col-lg-8 ">
                 <div class="intro-video">
                     <video src="../Videos/The Myland School with Voice over.mp4" width="850px" height="550px" controls></video>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-2 col-lg-2 bg-dark"></div>
+            <div class="col-sm-12 col-md-2 col-lg-2 "></div>
         </div>
     </div>
+    <hr>
 
 
     <div class="container-fluid">
@@ -72,8 +73,8 @@ include 'Header.php';
                     <div class="vision-header">
                         <p>Our Vision</p>
                     </div>
-                    <div class="vision-body">
-                        <p>
+                    <div >
+                        <p class="vision-body">
                          Our Vision is to be an exceptional learning institution full of comfort, mentorship and friendship, where 
                          pupils feel safe and valued. An environment of excellence.
                         </p>
@@ -92,8 +93,8 @@ include 'Header.php';
                     <div class="mission-header">
                         <p>Our Mission</p>
                     </div>
-                    <div class="mission-body">
-                        <p>
+                    <div >
+                        <p class="mission-body">
                          To provide quality education and nuture future Creators and Innovators.
                         </p>
                     </div>
