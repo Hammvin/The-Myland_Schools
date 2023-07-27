@@ -27,13 +27,13 @@ include 'Header.php';
             </div>
     <div class="row">
         <div class="col-sm-12 col-md-1 col-lg-1"></div>
-        <div class="col-sm-12 col-md-10 col-lg-10">
+        <div class="col-sm-12 col-md-10 col-lg-10 home-main">
             <div class="header">
                 <p class="header-txt">WELCOME TO THE MYLAND SCHOOLS</p>
             </div>
             <div class="intro">
                 <p>
-                 The Miland Schools is located at Miland-Katani along the boarder of Machakos and Nairobi Counties. 
+                 The Myland Schools is located Myland along the boarder of Machakos and Nairobi Counties. 
                  We are a private learning institution that provides holistic quality education and training. 
                  The school has a fully-fledged kindergarten and primary school dedicated to providing exemplary performance 
                  and nurture future innovators. We incorporate learning activities that help the all-around development of each 
@@ -71,7 +71,7 @@ include 'Header.php';
             <div class="col-sm-12 col-md-5 col-lg-5">
                 <div class="vision">
                     <div class="vision-header">
-                        <p>Our Vision</p>
+                        <p class="header-subtxt">Our Vision</p>
                     </div>
                     <div >
                         <p class="vision-body">
@@ -91,7 +91,7 @@ include 'Header.php';
             <div class="col-sm-12 col-md-5 col-lg-5">
                 <div class="mission">
                     <div class="mission-header">
-                        <p>Our Mission</p>
+                        <p class="header-subtxt">Our Mission</p>
                     </div>
                     <div >
                         <p class="mission-body">

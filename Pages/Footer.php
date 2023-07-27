@@ -48,7 +48,7 @@
       <div>
         <div class="footer-close">
           <p>
-            Copyright &copy; 2023 The Myland Schools. All Rights Reserved.
+            Copyright &copy; 2023 The Myland Schools. All Rights Reserved.  Created by Vinlinks
           </p>
         </div>
       </div>

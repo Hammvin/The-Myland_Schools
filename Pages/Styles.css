@@ -9,6 +9,14 @@ body{
 .container-fluid{
     padding-top: 10px;
 }
+
+/* .home-main{
+    border: 2px #9B3708 solid;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+} */
+
 .header{
     display: flex;
     justify-content: center;
@@ -18,10 +26,13 @@ body{
 
 .header-txt{
     font-size: 28px;
+    font-family: 'Cinzel',serif;
+    color: #9B3708;
 }
 
 .intro p{
-    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
     padding-bottom: 1rem;
 }
 
@@ -30,7 +41,7 @@ body{
 }
 
 .vision, .mission{
-    border: 2px solid black;
+    border: 2px solid #9B3708;
     border-radius: 20px;
     padding: 3rem;
 }
@@ -38,35 +49,102 @@ body{
 .vision-header, .mission-header{
     display: flex;
     justify-content: center;
+    font-family: 'Cinzel',serif;
+    color: #9B3708;
 }
 
-.vision-header, .mission-header p{
+.header-subtxt{
     font-size: 26px;
 }
 
 .vision-body, .mission-body{
     font-size: 20px;
     text-align: center;
+    font-family: 'Lumanosimo', cursive;
 }
 
 .vision{
     margin-top: 2rem;
+    background-color: #0CE0F5   ;
 }
 
 .mission{
     margin-bottom: 2rem;
+    background-color: #0CE0F5  ;
 }
 
 /*About*/
+.director{
+    display: flex;
+    justify-content: center;
+}
+
+.director-img, .pupil-img{
+    border: 2px solid #9B3708;
+    border-radius: 100px 100px 100px 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pupils{
+    display: flex;
+    justify-content: center;
+}
 
 .about-text{
     padding-bottom: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
 }
 
 .about-text p{
     font-size: 20px;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+/* ADMISSION */
+.admission-txt{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.span{
+    color: #9B3708;
+}
+
+.admission-frm{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.sub-header{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-headertxt{
+    text-decoration: underline;
+    color: #9B3708;
+    font-size: 24px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+/* Contacts */
+.contact-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+
+.contact-form{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
 }
 
 /*Footer*/
@@ -77,6 +155,7 @@ body{
 }
 
 .convenient-links p{
+    font-family: 'Cinzel',serif;
     font-size: 20px;
 }
 
@@ -94,9 +173,13 @@ ul a{
     list-style: none;
     padding-bottom: 10px;
     font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #9B3708;
 }
 
 .footer-close{
     display: flex;
     justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #9B3708;
 }

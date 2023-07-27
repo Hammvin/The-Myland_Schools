@@ -30,8 +30,8 @@ include 'Header.php';
             </div>
             <div class="admission-frm">
                 <form action="">
-                    <div>
-                        <p>Parent/Guardiane</p>
+                    <div class="sub-header">
+                        <p class="sub-headertxt">Parent/Guardian</p>
                     </div>
                     <div>
                         <label for="">First name:</label>
@@ -54,8 +54,8 @@ include 'Header.php';
                         <input type="text" name="phone" placeholder="Enter your phone number" autocomplete="off" required class="form-control">
                     </div>
                     <br>
-                    <div>
-                        <p>Pupil's Details</p>
+                    <div class="sub-header">
+                        <p class="sub-headertxt">Pupil's Details</p>
                     </div>
                     <div>
                         <label for="">First name:</label>
@@ -73,7 +73,7 @@ include 'Header.php';
                         <label for="">Class Interested:</label>
                         <input type="text" name="class" placeholder="Enter class..." autocomplete="off" class="form-control" required autocomplete="off">
                     </div>
-                    <div>
+                    <div class="button">
                         <button class="btn btn-info">Submit</button>
                     </div>
                 </form>
