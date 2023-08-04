@@ -53,13 +53,13 @@ include 'Header.php';
 
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-sm-12 col-md-2 col-lg-2 "></div>
-            <div class="col-sm-12 col-md-8 col-lg-8 ">
+            <div class="col-sm-12 col-md-2 col-lg-2"></div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
                 <div class="intro-video">
-                    <video src="../Videos/The Myland School with Voice over.mp4" width="850px" height="550px" controls></video>
+                    <video src="../Videos/The Myland School with Voice over.mp4" height="400px" width="600px" controls></video>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-2 col-lg-2 "></div>
+            <div class="col-sm-12 col-md-2 col-lg-2"></div>
         </div>
     </div>
     <hr>

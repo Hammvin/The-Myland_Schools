@@ -27,25 +27,36 @@ include 'Header.php';
                 </p>
             </div>
             <div class="contact-form">
-                <form action="">
+                <form action="Contacts.php" method="post">
                     <div>
                         <label for="">Name:</label>
-                        <input type="text" name="name" placeholder="Enter your name" autocomplete="off" required class="form-control">
+                        <input type="text" name="name" 
+                        placeholder="Enter your name" 
+                        autocomplete="off" required 
+                        class="form-control">
                     </div>
                     <div>
                         <label for="">Contact:</label>
-                        <input type="text" name="contact" autocomplete="off" placeholder="Enter phone number" required class="form-control">
+                        <input type="text" name="contact" 
+                        autocomplete="off" 
+                        placeholder="Enter phone number" 
+                        required class="form-control">
                     </div>
                     <div>
                         <label for="">Email Address:</label>
-                        <input type="text" name="email" placeholder="Enter email address" autocomplete="off" require class="form-control">
+                        <input type="text" name="email" 
+                        placeholder="Enter email address" 
+                        autocomplete="off" require 
+                        class="form-control">
                     </div>
                     <div>
                         <label for="">Message:</label>
-                        <textarea name="message" class="form-control" placeholder="Write your message.." required cols="50" rows="10"></textarea>
+                        <textarea name="message" class="form-control" 
+                        placeholder="Write your message.." 
+                        required cols="50" rows="10"></textarea>
                     </div>
                     <div class="button">
-                        <button class="btn btn-info">Submit</button>
+                        <button class="btn btn-dark">Submit</button>
                     </div>
                 </form>
             </div>

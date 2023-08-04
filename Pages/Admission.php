@@ -1,5 +1,6 @@
 <?php
 include 'Header.php';
+include 'Admission-Handler.php';
 ?>
 
 <div class="container-fluid">
@@ -29,29 +30,45 @@ include 'Header.php';
                 </p>
             </div>
             <div class="admission-frm">
-                <form action="">
+                <form action="Admission-Handler.php" method="post">
                     <div class="sub-header">
                         <p class="sub-headertxt">Parent/Guardian</p>
                     </div>
                     <div>
                         <label for="">First name:</label>
-                        <input type="text" name="fname" placeholder="Enter first name" autocomplete="off" class="form-control" required>
+                        <input type="text" name="fname"
+                        value="<?php echo $fname; ?>" 
+                        placeholder="Enter first name" 
+                        autocomplete="off" class="form-control" 
+                        required><span class="response">* <?php echo $fnameErr; ?></span>
                     </div>
                     <div>
                         <label for="">Second name:</label>
-                        <input type="text" name="sname" placeholder="Enter second name" autocomplete="off" class="form-control" required>
+                        <input type="text" name="sname"
+                        value="<?php echo $sname; ?>" 
+                        placeholder="Enter second name" 
+                        autocomplete="off" class="form-control" 
+                        required><span class="response">* <?php echo $snameErr; ?></span>
                     </div>
                     <div>
                         <label for="">Entry date:</label>
-                        <input type="date" class="form-control" required>
+                        <input type="date" name="entry_date" 
+                        value="<?php echo $date1; ?>"
+                        class="form-control" required><span class="response">* <?php echo $date1Err; ?></span>
                     </div>
                     <div>
                         <label for="">Email:</label>
-                        <input type="email" name="email" placeholder="Enter your email address" autocomplete="off" required class="form-control">
+                        <input type="email" name="email"
+                        value="<?php echo $email; ?>" 
+                        placeholder="Enter your email address" 
+                        autocomplete="off" required class="form-control"><span class="response">* <?php echo $emailErr; ?></span>
                     </div>
                     <div>
                         <label for="">Phone:</label>
-                        <input type="text" name="phone" placeholder="Enter your phone number" autocomplete="off" required class="form-control">
+                        <input type="text" name="phone"
+                        value="<?php echo $phone; ?>" 
+                        placeholder="Enter your phone number" 
+                        autocomplete="off" required class="form-control"><span class="response">* <?php echo $phone; ?></span>
                     </div>
                     <br>
                     <div class="sub-header">
@@ -59,22 +76,33 @@ include 'Header.php';
                     </div>
                     <div>
                         <label for="">First name:</label>
-                        <input type="text" name="pupil1" placeholder="Enter first name" autocomplete="off" required class="form-control">
+                        <input type="text" name="pupil_name1"
+                        value="<?php echo $pupil_name1; ?>" 
+                        placeholder="Enter first name" autocomplete="off" 
+                        required class="form-control"><span class="response">* <?php echo $pupil_name1Err; ?></span>
                     </div>
                     <div>
                         <label for="">Last name:</label>
-                        <input type="text" placeholder="Enter last name" class="form-control">
+                        <input type="text" name="pupil_name2"
+                        value="<?php echo $pupil_name2; ?>" 
+                        placeholder="Enter last name" class="form-control"><span class="response">* <?php echo $pupil_name2Err; ?></span>
                     </div>
                     <div>
                         <label for="">Date of Birth:</label>
-                        <input type="date" name="dob" class="form-control">
+                        <input type="date" name="dob"
+                        value="<?php echo $dob; ?>"
+                         class="form-control"><span class="response">* <?php echo $dobErr; ?></span>
                     </div>
                     <div>
                         <label for="">Class Interested:</label>
-                        <input type="text" name="class" placeholder="Enter class..." autocomplete="off" class="form-control" required autocomplete="off">
+                        <input type="text" name="class" 
+                        value="<?php echo $class; ?>"
+                        placeholder="Enter class..." 
+                        autocomplete="off" class="form-control" 
+                        required autocomplete="off"><span class="response">* <?php echo $classErr; ?></span>
                     </div>
                     <div class="button">
-                        <button class="btn btn-info">Submit</button>
+                        <button class="btn btn-dark" type="submit" name="submit">Submit</button>
                     </div>
                 </form>
             </div>

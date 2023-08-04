@@ -1,12 +1,12 @@
     <hr>
-    <div class="container-fluid">
+    <div class="container-fluid footer">
       <div class="row">
         <div class="col-sm-12 col-md-4 col-lg-4">
           <div class="convenient-links">
             <p>The Myland Schools</p>
           </div>
           <div class="convenient-links">
-            <img src="../Images/Milandlogo.jpg" alt="logo" height="180px" width="180px">
+            <img src="../Images/Milandlogo.jpg" alt="logo" height="180px" width="180px" class="logo">
           </div>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4">
@@ -29,15 +29,15 @@
           </div>
           <div class="convenient-links">
             <ul>
-              <li class="footer-lnk">P.O BOX -----,</li>
-              <li class="footer-lnk">Utawala,</li>
-              <li class="footer-lnk">Nairobi Kenya.</li>
+              <li class="footer-cont">P.O BOX -----,</li>
+              <li class="footer-cont">Utawala,</li>
+              <li class="footer-cont">Nairobi Kenya.</li>
             </ul>
           </div>
           <div class="convenient-links">
             <ul>
-              <li class="footer-lnk">+254 729 220 917</li>
-              <li class="footer-lnk">info@themylandshools.ac.ke</li>
+              <li class="footer-cont">+254 729 220 917</li>
+              <li class="footer-cont">info@themylandshools.ac.ke</li>
             </ul>
           </div>
         </div>

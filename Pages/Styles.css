@@ -5,6 +5,29 @@ body{
     font-size: 20px;
 }
 
+/* Navbar */
+
+.hamburger{
+    
+    color: #9B3708;
+}
+
+.navbar-toggler-icon{
+    size: 5px;
+    background: white;
+}
+
+.logo{
+    border: 3px solid #9B3708;
+    border-radius: 50%;
+}
+
+/* Index */
+.facility{
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+}
+
 /*Home*/
 .container-fluid{
     padding-top: 10px;
@@ -103,6 +126,33 @@ body{
     text-align: center;
 }
 
+/* Activities */
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lumanosimo', cursive;
+    font-size: 26px;
+    color: #9B3708;
+    margin-top: 30px;
+}
+
+.activity{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.act-vid{
+    border: 3px solid #0CE0F5;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.activity-txt{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+
 /* ADMISSION */
 .admission-txt{
     font-family: 'Josefin Sans', sans-serif;
@@ -111,6 +161,10 @@ body{
 }
 
 .span{
+    color: #9B3708;
+}
+
+.response{
     color: #9B3708;
 }
 
@@ -148,6 +202,10 @@ body{
 }
 
 /*Footer*/
+.footer{
+    background: #0CE0F5;
+}
+
 .convenient-links{
     display: flex;
     justify-content: center;
@@ -169,12 +227,20 @@ ul a{
     text-decoration: none;
 }
 
-.footer-lnk{
+.footer-lnk, .footer-cont{
     list-style: none;
     padding-bottom: 10px;
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
     color: #9B3708;
+}
+
+.footer-lnk:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid #9B3708;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .footer-close{
